@@ -23,7 +23,7 @@ int select1, select2, cross;
 
 int fitness[5]={0,0,0,0,0};
 
-int randomsayi(){
+void randomsayi(){
 	select1 = rand() % 5 + 0;
 	select2 = rand() % 5 + 0;
 	
